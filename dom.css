@@ -1,0 +1,293 @@
+body {
+    font-family: 'Mada', sans-serif;
+    background-color: #260001;
+}
+
+div {
+	background-color: azure;
+	
+
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 300%;
+	text-align: center;
+    	margin: 20px 0 30px 0;
+	
+}
+
+#titleBar {
+    background-color: rgb(255, 100, 0);
+    margin: 0 0 20px 0;
+    border: solid 3px slategray;
+    border-radius: 10px;
+    color: ghostwhite;
+    padding: 10px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#titleBar span {
+    float: right;
+    font-weight: normal;
+    font-size: 110%;
+    margin-right: 10px;
+}
+
+
+
+
+#theatre {
+    padding-top: 10px;
+    margin: 20px 10px 0 20px;
+    height: 380px;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+}
+
+#screen {
+    position: relative;
+}
+
+#img img{
+    margin: 0 10px 50px 20px;
+    width: 250px;
+    height: 350px;
+    float: left;
+    border: outset 2px slategray;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+}
+
+#movieDetails {
+    margin: 0 10px 20px 20px;
+    float: left;
+    width: 30%;
+    height: 320px;
+    font-size: 160%;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+}
+
+.spanText {
+  font-weight: bold;
+    color: orangered;
+    float: right;
+
+}
+
+#movieDetails div  {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.mainPanel {
+    border: outset 2px orangered;
+    padding: 30px 50px 0 30px;
+}
+
+#middlePanel {
+    float: left;
+    margin: 0 0 30px 0;
+    height: 350px;
+    width: 40%;
+    border: outset 2px orangered;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+
+.seatsExample {
+    padding-left: 10px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.seatsExample img{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px 0 10px;
+    margin: 0 10px 0 10px ;
+
+}
+figcaption {
+    text-align: center;
+    color: orangered;
+    font-size: 120%;
+    font-style: italic;
+}
+
+.priceDetails {
+    font-size: 130%;
+    margin: 5px 50px 0 20px;
+}
+
+#mainTable {
+    background-color: transparent;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    width: 100%;
+}
+
+#theatreTab {
+    margin: 0 auto;
+    width: 75%;
+    height: 120px;
+    background-color: grey;
+    border: 3px ghostwhite solid;
+    border-radius: 20px;
+    border-spacing: 0;
+    padding: 10px 100px 10px 130px;
+}
+
+
+
+
+#theatreTab td {
+    width: 25px;
+    height: 25px;
+    padding: 5px 0 15px 0;
+
+    background-size: cover;
+    vertical-align: text-top;
+    text-align: center;
+    color: lightgrey;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+th {
+    color: beige;
+    width: 25px;
+    height: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.left-sofa.taken {
+    background: url(dom_sofa_l_taken.png);
+    cursor: not-allowed;
+}
+
+.left-sofa.free {
+    background: url(dom_sofa_l_free.png);
+}
+
+.left-sofa.booked {
+    background: url(dom_sofa_l_mine.png);
+    color: red;
+}
+
+.right-sofa.taken {
+    background: url(dom_sofa_r_taken.png);
+    cursor: not-allowed;
+}
+
+.right-sofa.free {
+    background: url(dom_sofa_r_free.png);
+}
+
+.right-sofa.booked {
+    background: url(dom_sofa_r_mine.png);
+}
+
+.armchair.taken {
+    background: url(dom_armchair_taken.png);
+    cursor: not-allowed;
+}
+
+.armchair.free {
+    background: url(dom_armchair_free.png);
+}
+
+.armchair.booked {
+    background: url(dom_armchair_mine.png);
+}
+
+#screenDetails {
+    text-align: center;
+    align-content: center;
+}
+
+#frontRow {
+    text-align: center;
+    align-content: center;
+    background-color:orangered;
+    color: aliceblue;
+    font-size: 150%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 0;
+}
+
+#screenRow {
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+    align-content: center;
+    background-color: aliceblue;
+    color: orangered;
+    border: black 2px outset;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 50%;
+    float: left;
+    padding: 10px 0 10px 0;
+    margin: 0 0 10px 25%;
+}
+
+.myButton {
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    margin: 10px 20% 50px 20%;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+    float: right;
+    font-size: 175%;
+    width: 10%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: darkorange;
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.inactive {
+    background-color: rgba(199, 101, 0, 0.52);
+    color: #99a1a8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: none;
+}
+
+.payment {
+    border: outset 1px red;
+    border-radius: 5px;
+    background-color: orange;
+    height: 30px;
+    width: 20%;
+}
+
+.paymentText {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 10px 0 0 20px;
+}
+
+
+#imgPayment{
+    margin: 30px 10px 50px 20px;
+    width: 50%;
+    height: 150px;
+
+    border: outset 2px slategray;
+    box-shadow: 5px 5px 15px rgba(255, 88, 2, 0.88);
+}
